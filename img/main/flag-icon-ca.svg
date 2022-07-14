@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.96" height="38.96" viewBox="0 0 38.96 38.96">
+    <defs>
+        <clipPath id="hccujjm25a">
+            <path data-name="Rectangle 1492" d="M0 0h38.96v38.96H0z"/>
+        </clipPath>
+        <clipPath id="lyk1rufvkb">
+            <circle data-name="Ellipse 33" cx="19.09" cy="19.09" r="19.09" style="fill:none"/>
+        </clipPath>
+    </defs>
+    <g data-name="flag-icon-ca" style="clip-path:url(#hccujjm25a)">
+        <g data-name="Group 276">
+            <g data-name="Group 275" style="clip-path:url(#lyk1rufvkb)" transform="translate(.39 .39)">
+                <g data-name="Group 274">
+                    <g data-name="Group 273">
+                        <path data-name="Rectangle 741" style="fill:#f80000" d="M0 0h76.361v38.18H0z" transform="translate(-19.09)"/>
+                        <path data-name="Rectangle 742" transform="translate(6.786)" style="fill:#fff" d="M0 0h24.61v38.18H0z"/>
+                    </g>
+                    <path data-name="Path 1207" d="m693.352 520.625-1.75 3.4c-.2.37-.556.335-.911.128l-1.267-.683.945 5.224c.2.953-.44.953-.754.541l-2.212-2.579-.359 1.309a.429.429 0 0 1-.5.312l-2.8-.612.735 2.781c.156.619.279.876-.159 1.039l-1 .487 4.815 4.071a.671.671 0 0 1 .218.682l-.422 1.441 4.8-.576c.147 0 .392.13.39.306l-.221 5.276h.809l-.127-5.266c0-.176.221-.318.368-.316l4.8.576-.422-1.442a.673.673 0 0 1 .219-.681l4.815-4.074-1-.486c-.44-.163-.316-.421-.159-1.04l.735-2.781-2.8.612a.426.426 0 0 1-.5-.312l-.359-1.309-2.212 2.579c-.314.412-.952.412-.753-.541l.944-5.224-1.266.683c-.356.207-.713.242-.91-.128z" transform="translate(-674.264 -512.989)" style="fill:#f80000"/>
+                </g>
+            </g>
+        </g>
+        <g data-name="Path 1206">
+            <path data-name="Path 887" d="M19.48 0A19.48 19.48 0 1 1 0 19.48 19.48 19.48 0 0 1 19.48 0z" style="fill:none"/>
+            <path data-name="Path 888" d="M19.48 1.558a17.927 17.927 0 0 0-6.98 34.436A17.916 17.916 0 0 0 37.4 19.48a18.09 18.09 0 0 0-.449-4.011 17.837 17.837 0 0 0-3.269-6.936 17.538 17.538 0 0 0-2.6-2.714 18.26 18.26 0 0 0-5.36-3.14 17.779 17.779 0 0 0-6.242-1.121m0-1.558A19.48 19.48 0 1 1 0 19.48 19.475 19.475 0 0 1 19.48 0z" style="fill:#fff"/>
+        </g>
+    </g>
+</svg>
