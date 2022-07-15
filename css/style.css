@@ -989,6 +989,7 @@ td {
   align-items: center;
   height: 38px;
   width: 100%;
+  outline: transparent;
   font-weight: 900;
   text-transform: uppercase;
   cursor: pointer;
