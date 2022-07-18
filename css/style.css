@@ -1848,6 +1848,8 @@ td {
 .second-slider__reviews-avatar {
   position: absolute;
   top: -42px;
+  left: 50%;
+  transform: translate(-50%, 0);
   margin-bottom: 0 !important;
 }
 .second-slider__reviews-name {
