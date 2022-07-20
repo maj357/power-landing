@@ -1286,7 +1286,7 @@ td {
 @media (max-width: 36.875em) {
   .page__content-bonus {
     margin-top: -20px;
-    height: 115px;
+    height: 115px !important;
   }
 }
 .page__content-chips {
