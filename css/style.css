@@ -875,6 +875,9 @@ td {
 .arrow-down.arrowUp {
   transform: rotate(-180deg);
 }
+.arrow-down.arrowDown {
+  transform: rotate(0deg);
+}
 .arrow-down.arrowMobileActive {
   top: 0px;
   display: flex;
