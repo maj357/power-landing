@@ -717,13 +717,11 @@ td {
     border-width: 0.1875rem;
   }
 }
-@media (any-hover: hover) {
-  .link-button:hover {
-    background-color: #00c20e;
-  }
-  .link-button:hover::after {
-    right: 20px;
-  }
+.link-button:hover, .link-button:focus {
+  background-color: #00c20e;
+}
+.link-button:hover::after, .link-button:focus::after {
+  right: 20px;
 }
 @media (max-width: 36.875em) {
   .link-button {
@@ -826,7 +824,6 @@ td {
 }
 @media (max-width: 64em) {
   .arrow-down {
-    display: none;
     top: -10px;
   }
 }
@@ -879,9 +876,14 @@ td {
   transform: rotate(-180deg);
 }
 .arrow-down.arrowMobileActive {
-  display: block;
+  top: 0px;
+  display: flex;
   transform: rotate(180deg) translate(0px, 25px);
   transition: all 0.2s ease 0s;
+}
+.arrow-down.arrowMobileDisabled {
+  top: 0;
+  display: none;
 }
 
 .mod {
@@ -1040,10 +1042,16 @@ td {
   }
 }
 @media (max-width: 64em) {
-  .footer__button.mobileActive {
-    transform: translate(0px, -35px);
+  .footer__button {
+    transform: translate(0px, -15px);
     transition: all 0.3s ease 0s;
     z-index: 2;
+  }
+  .footer__button.mobileActive {
+    transform: translate(0px, -30px);
+  }
+  .footer__button.mobileDeactive {
+    transform: translate(0px, 0px);
   }
 }
 .footer__button span {
@@ -1224,6 +1232,22 @@ td {
   .page__content {
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 20px;
+    height: auto;
+  }
+}
+@media (max-width: 36.875em) and (min-width: 36.875em) {
+  .page__content {
+    padding-top: 1.875rem;
+  }
+}
+@media (max-width: 36.875em) and (min-width: 20em) and (max-width: 36.875em) {
+  .page__content {
+    padding-top: calc(1.25rem + 0.625 * (((100vw - 20rem)) / ((16.875))));
+  }
+}
+@media (max-width: 36.875em) and (max-width: 20em) {
+  .page__content {
+    padding-top: 1.25rem;
   }
 }
 .page__content-bonus {
@@ -1262,6 +1286,7 @@ td {
 @media (max-width: 36.875em) {
   .page__content-bonus {
     margin-top: -20px;
+    height: 115px;
   }
 }
 .page__content-chips {
@@ -1303,9 +1328,10 @@ td {
 .page__content-text:not(:last-child) {
   margin-bottom: 1.1923076923em;
 }
-@media (max-width: 29.99875em) {
+@media (max-width: 36.875em) {
   .page__content-text {
     padding: 0 20px;
+    margin-bottom: 15px !important;
   }
 }
 @media (min-width: 81.25em) {
@@ -1353,7 +1379,7 @@ td {
     margin-bottom: 0.75rem;
   }
 }
-@media (max-width: 29.99875em) {
+@media (max-width: 36.875em) {
   .page__content-link {
     max-width: 260px;
   }
